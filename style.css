@@ -122,29 +122,54 @@ h3{
 .laps .lap.active p{
     color: #fff;
 }
-@media (max-width:600px){
+@media (max-width:500px){
     .container{
-        height: 100vh;
+        height: 70vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
         border-radius: 0;
-        padding: 0 20px;
+        padding: 0px 10px;
     }
     .container h3{
-        font-size: 16px;
+        font-size: 30px;
     }
     .outer-wrapper{
-        padding: 20px 0;
+        padding: 30px 0px;
     }
     .main div{
-        width: 15px;
+        width: 60px;
     }
     .main .number{
-        font-size: 50px;
+        font-size: 40px;
     }
     .main .colon{
-        font-size: 16px;
+        font-size: 20px;
+    }
+}
+@media (max-width:600px){
+    .container{
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-radius: 0;
+        padding: 0px 10px;
+    }
+    .container h3{
+        font-size: 30px;
+    }
+    .outer-wrapper{
+        padding: 30px 0px;
+    }
+    .main div{
+        width: 60px;
+    }
+    .main .number{
+        font-size: 40px;
+    }
+    .main .colon{
+        font-size: 20px;
     }
 }
 
